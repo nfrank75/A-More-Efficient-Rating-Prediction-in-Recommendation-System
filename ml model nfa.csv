@@ -1,0 +1,5 @@
+Machine Learning Models,MAE,RMSE
+TSVD - KNN Regressor ( K = 10 ),0.72648,0.90944
+TSVD - Naive Baye Ridge,0.727872,0.921046
+TSVD  - Linear Regressor,0.725146,0.919326
+BiasTF - RT (resultat de l'article ),0.7494,0.9141

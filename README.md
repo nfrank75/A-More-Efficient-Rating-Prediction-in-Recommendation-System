@@ -1,29 +1,18 @@
-# A-More-Efficient-Rating-Prediction-in-Recommendation-System
-We proposed a model that make the rating prediction in recommendation on the LDOS_COMODA dataset using the Machine Learning Algorithms
+1) this file is explain how to execute the TSVD-PCA KNN-LR-NBR on LDOS - CoMoDa dataset Ngaleu Frank Anael .ipynb python code.
+
+install the anaconda tool
+go to jypyter through the anaconda tool
+
+import the comoda_data.csv dataset
+execute de source code of TSVD-PCA KNN-LR-NBR on LDOS - CoMoDa dataset Ngaleu Frank Anael .ipynb
 
 
-We used many algorithms such as : K Nearest Neighbord (KNN), Naive Bayes (NB), Linear Regression (LR), Principal Components (PCA) and Truncate Singular Value Decomposition (TSVD).
+2) the histogram of results.docx shows the histogrames of all the results models according to the MAE and RMSE metrics errors
 
-MAke the comparison with PCA and SVD to reduce the dimensions of the dataset and select the better one after the evaluation of models.
 
-**Models 1)   PCA : reduction dimensions matrices**
+3) LDOS-CoMoDa-description.txt shows all the description of the LDOS - CoMoDa dataset
 
-A )  PCA with KNN,
+4) show the table of result models ( trncated singular value decomposition TSVD with KNN, Linear regression and Naive Bayesian)
 
-B )  PCA with LR 
 
-and
-
-C )PCA With NB
-
-**Models 2)   SVD : reduction dimensions matrices**
-
-A' )  SVD with KNN,
-
-B' )   SVD with LR 
-
-and
-
-C)     SVD With NB
-
-the better model was selected after the experimentations. the model is : SVD and KNN
+5)   comoda_data.csv is the dataset of LDOS Comoda
